@@ -1,0 +1,12 @@
+Vripack Data Scraper
+
+This PowerShell script will search at a local file server structure for useful information.
+Once found, it will be added to a SQL database.
+It will search inside these type of documents:
+
+* DOCX
+By extracting the XML file from the DOCX file, a plain text search is executed
+
+* PDF
+Using the [itextsharp.dll] module, PFD files are made searchable as plain text.
+See https://github.com/itext/itextsharp
